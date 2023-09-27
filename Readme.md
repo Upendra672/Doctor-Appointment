@@ -51,30 +51,29 @@ Before you begin, ensure you have met the following requirements:
 4. Start the development server:
 
     ```bash
-    npm start
+    npm run dev
     
 5. Access the application:
 
     Open your web browser and go to http://localhost:3000 to access the application.
 
-
-
 6. Contributing
-    Contributions to this project are welcome! To contribute:
 
-    Fork the repository.
+    - Contributions to this project are welcome! To contribute:
 
-    Create a new branch for your feature or bug fix.
+    - Fork the repository.
 
-    Make your changes and commit them.
+    - Create a new branch for your feature or bug fix.
 
-    Push your changes to your fork.
+    - Make your changes and commit them.
 
-    Create a pull request to the main repository's main branch.
+    - Push your changes to your fork.
+
+    - Create a pull request to the main repository's main branch.
 
 7. License
     This project is licensed under the MIT License - see the LICENSE file for details.
 
 
 
-    #Happy coding! 🚀
+    ### Happy coding! 🚀
