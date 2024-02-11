@@ -1,1 +1,79 @@
+:root{
+    --bg-color: #2469E7;
+    --frame-color: #92B4F3;
+    --lg-text-color: #92B4F3;
+    --sm-text-color: #C9DAF9;
+}
 
+/* universal style */
+.a{
+    margin: 10px 0px;
+}
+a{
+    text-decoration: none;
+    color: darkblue;
+
+    padding: 10px 0px;
+    transition: all 0.5s ease;
+}
+a:hover{
+    color: black;
+    font-size: 1rem;
+}
+/* Antd overridding styles */
+label{
+    font-size: 1rem !important;
+    color: rgba(39, 30, 30, 0.83) !important;
+    font-weight: bold !important;
+}
+.ant-form-item{
+    margin: 20px 5px !important;
+}
+
+button{
+    width: 100%;
+    background-color: rgb(8, 91, 245) !important;
+    height: 40px !important;
+    font-size: 18px !important;
+}
+
+/* common styling */
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.normal-text {
+    font-size: 1rem;
+
+}
+
+.card{
+    box-shadow: 0 0 2px gray;
+    border-radius: 0;
+}
+
+
+/* authentication page */
+.auth{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.auth-form{
+    width: 400px;
+    border-radius: 20px;
+    box-shadow: 15px 10px 20px var(--lg-text-color);
+}
+
+.auth-form > h1{
+    margin: 0px -50px;
+    background-color: rgba(0, 0, 255, 0.635);
+    padding: 0 0 0 50px;
+    border-radius: 70px 0 70px 0;
+    width: 70%; 
+    color: white;
+}
