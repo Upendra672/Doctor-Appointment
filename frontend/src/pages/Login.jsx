@@ -22,7 +22,7 @@ const Login = () => {
     if(response.data.success) {
       toast.success(response.data.message)
       localStorage.setItem("token",response.data.token)
-      navigate("/")
+      navigate("/home")
     }else{
       toast.error(response.data.message)
     }
